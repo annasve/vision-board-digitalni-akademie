@@ -1,0 +1,60 @@
+body {
+  background-color: #8fbc8f;
+  /*darkseagreen*/
+  font-family: 'Poppins', sans-serif;
+  color: #8D745B;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 2px solid #8D745B;
+  border-top-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  padding: 0.8rem;
+
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.uvodni-foto {
+  border-top-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  width: 250px;
+  height: 250px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  text-align: center;
+}
+
+.icons {
+  width: 1em;
+  height: 1em;
+}
+
+
+
+.link,
+.link:visited {
+  color: #5c5044;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.link:hover {
+  color: #423b34;
+}
